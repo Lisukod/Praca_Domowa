@@ -1,0 +1,365 @@
+Git log:
+
+commit a0ba84d904b1103e0dcc444a052ccd7965a4b3a8 (HEAD -> master)
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 20:20:34 2020 +0200
+
+    Removing of repeating files. Change in piosenka.txt with refren.txt files
+
+commit a9238492695e50d359a40d666ed8b662700b4626
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 20:04:49 2020 +0200
+
+    Revert "Removed last line from refren-1.txt"
+
+    This reverts commit 9df33c8596cc97ca19b74aecbfd95d3d3148dfb9.
+
+commit 9df33c8596cc97ca19b74aecbfd95d3d3148dfb9
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:59:22 2020 +0200
+
+    Removed last line from refren-1.txt
+
+commit a1a4de0a4995b62e670b25c0055fb6ef43462774
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:57:31 2020 +0200
+
+    Moving third chorus from piosenka.txt to refren-3.txt
+
+commit 3bc90a6e557467888dc847050714368b42af4278
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:56:54 2020 +0200
+
+    Moving third verse from piosenka.txt to zwrotka-3.txt
+
+commit 73411a41d2de79419d5b4e00a3217438d37c2c9d
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:52:42 2020 +0200
+
+    Moving second chorus from piosenka.txt to refren-2.txt
+
+commit 6ea3c077dd1062b8d6640ffca39121620a7f0ede
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:46:48 2020 +0200
+
+    Moving second verse from piosenka.txt to zwrotka-2.txt
+
+commit 751758b284f7f8571fe1488ee1edb5bc38bcb0eb
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:45:15 2020 +0200
+
+    Moving first chorus from piosenka.txt to refren-1.txt
+
+commit ce3811fcb59fdfc47c63d98ea8b627a032331688
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:28:58 2020 +0200
+
+    Uplod of new files for lyrics. Moving first line of lyrics from piosenka.txt to zwrotka-1.txt
+
+commit 3175cd00fa44cab8c2e398a01d613f6936356289
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:13:08 2020 +0200
+
+    Uploading piosenka.txt file
+
+piosenka.txt log:
+
+index 57ce04d..99baffa 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,6 +1,13 @@
+ zwrotka-1.txt
+-refren-1.txt
++refren.txt
++refren.txt
+ zwrotka-2.txt
+-refren-2.txt
++refren.txt
++refren.txt
+ zwrotka-3.txt
+-refren-3.txt
+\ No newline at end of file
++refren.txt
++refren.txt
++refren.txt
++refren.txt
++refren.txt
++refren.txt
+\ No newline at end of file
+
+commit a1a4de0a4995b62e670b25c0055fb6ef43462774
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:57:31 2020 +0200
+
+    Moving third chorus from piosenka.txt to refren-3.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index bc5332f..57ce04d 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -3,10 +3,4 @@ refren-1.txt
+ zwrotka-2.txt
+ refren-2.txt
+ zwrotka-3.txt
+-
+-
+-
+-
+-
+-Nie pytaj o nic, chcesz to wybaczaj
+-Ciesz się kochanie, że w ogóle wracam x6
+\ No newline at end of file
++refren-3.txt
+\ No newline at end of file
+
+commit 3bc90a6e557467888dc847050714368b42af4278
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:56:54 2020 +0200
+
+    Moving third verse from piosenka.txt to zwrotka-3.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index c1affd0..bc5332f 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,16 +2,11 @@ zwrotka-1.txt
+ refren-1.txt
+ zwrotka-2.txt
+ refren-2.txt
++zwrotka-3.txt
+
+
+
+
+
+-
+-Gdzieś zniknął szalik, nic nie pamiętam
+-Czy wielkanocne były już święta?
+-By sobie poradzić z tym muszę znowu
+-Napić się zanim wrócę do domu
+-
+ Nie pytaj o nic, chcesz to wybaczaj
+ Ciesz się kochanie, że w ogóle wracam x6
+\ No newline at end of file
+
+commit 73411a41d2de79419d5b4e00a3217438d37c2c9d
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:52:42 2020 +0200
+
+    Moving second chorus from piosenka.txt to refren-2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 4f637d1..c1affd0 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,15 +1,12 @@
+ zwrotka-1.txt
+ refren-1.txt
+ zwrotka-2.txt
++refren-2.txt
+
+
+
+
+
+-Nie pytaj o nic, chcesz to wybaczaj
+-Ciesz się kochanie, że w ogóle wracam
+-Nie pytaj o nic, chcesz to wybaczaj
+-Ciesz się kochanie, że w ogóle wracam
+
+ Gdzieś zniknął szalik, nic nie pamiętam
+ Czy wielkanocne były już święta?
+
+commit 6ea3c077dd1062b8d6640ffca39121620a7f0ede
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:46:48 2020 +0200
+
+    Moving second verse from piosenka.txt to zwrotka-2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 3d74095..4f637d1 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,11 +1,10 @@
+ zwrotka-1.txt
+ refren-1.txt
++zwrotka-2.txt
++
++
+
+
+-Ludzie w tramwajach do pracy jadą
+-Więc to nie może być przecież Radom
+-Gdzie mnie przeniosło? Brak telefonu
+-Zgubiłem? Skradli? Wracam do domu
+
+ Nie pytaj o nic, chcesz to wybaczaj
+ Ciesz się kochanie, że w ogóle wracam
+
+commit 751758b284f7f8571fe1488ee1edb5bc38bcb0eb
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:45:15 2020 +0200
+
+    Moving first chorus from piosenka.txt to refren-1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 45ffd22..3d74095 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,9 +1,6 @@
+ zwrotka-1.txt
++refren-1.txt
+
+-Nie pytaj o nic, chcesz to wybaczaj
+-Ciesz się kochanie, że w ogóle wracam
+-Nie pytaj o nic, chcesz to wybaczaj
+-Ciesz się kochanie, że w ogóle wracam
+
+ Ludzie w tramwajach do pracy jadą
+ Więc to nie może być przecież Radom
+
+commit ce3811fcb59fdfc47c63d98ea8b627a032331688
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:28:58 2020 +0200
+
+    Uplod of new files for lyrics. Moving first line of lyrics from piosenka.txt to zwrotka-1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index e69de29..45ffd22 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -0,0 +1,24 @@
++zwrotka-1.txt
++
++Nie pytaj o nic, chcesz to wybaczaj
++Ciesz się kochanie, że w ogóle wracam
++Nie pytaj o nic, chcesz to wybaczaj
++Ciesz się kochanie, że w ogóle wracam
++
++Ludzie w tramwajach do pracy jadą
++Więc to nie może być przecież Radom
++Gdzie mnie przeniosło? Brak telefonu
++Zgubiłem? Skradli? Wracam do domu
++
++Nie pytaj o nic, chcesz to wybaczaj
++Ciesz się kochanie, że w ogóle wracam
++Nie pytaj o nic, chcesz to wybaczaj
++Ciesz się kochanie, że w ogóle wracam
++
++Gdzieś zniknął szalik, nic nie pamiętam
++Czy wielkanocne były już święta?
++By sobie poradzić z tym muszę znowu
++Napić się zanim wrócę do domu
++
++Nie pytaj o nic, chcesz to wybaczaj
++Ciesz się kochanie, że w ogóle wracam x6
+\ No newline at end of file
+
+commit 3175cd00fa44cab8c2e398a01d613f6936356289
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:13:08 2020 +0200
+
+    Uploading piosenka.txt file
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..e69de29
+
+refren.txt log:
+
+commit a0ba84d904b1103e0dcc444a052ccd7965a4b3a8 (HEAD -> master)
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 20:20:34 2020 +0200
+
+    Removing of repeating files. Change in piosenka.txt with refren.txt files
+
+diff --git a/refren.txt b/refren.txt
+new file mode 100644
+index 0000000..29f891a
+--- /dev/null
++++ b/refren.txt
+@@ -0,0 +1,4 @@
++Nie pytaj o nic, chcesz to wybaczaj
++Ciesz się kochanie, że w ogóle wracam
++Nie pytaj o nic, chcesz to wybaczaj
++Ciesz się kochanie, że w ogóle wracam
+
+zwrotka-1.txt log:
+
+commit ce3811fcb59fdfc47c63d98ea8b627a032331688
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:28:58 2020 +0200
+
+    Uplod of new files for lyrics. Moving first line of lyrics from piosenka.txt to zwrotka-1.txt
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+new file mode 100644
+index 0000000..4aa09a7
+--- /dev/null
++++ b/zwrotka-1.txt
+@@ -0,0 +1,4 @@
++Świt blady wstaje nad smętnym miastem
++Dziś się nie zbudzę, bo już nie zasnę
++W głowie harmider, myśli z syfonu
++Kiedy po szóstej wracam do domu
+
+zwrotka-2.txt log:
+
+commit 6ea3c077dd1062b8d6640ffca39121620a7f0ede
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:46:48 2020 +0200
+
+    Moving second verse from piosenka.txt to zwrotka-2.txt
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+index e69de29..741a37c 100644
+--- a/zwrotka-2.txt
++++ b/zwrotka-2.txt
+@@ -0,0 +1,4 @@
++Ludzie w tramwajach do pracy jadą
++Więc to nie może być przecież Radom
++Gdzie mnie przeniosło? Brak telefonu
++Zgubiłem? Skradli? Wracam do domu
+\ No newline at end of file
+
+commit ce3811fcb59fdfc47c63d98ea8b627a032331688
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:28:58 2020 +0200
+
+    Uplod of new files for lyrics. Moving first line of lyrics from piosenka.txt to zwrotka-1.txt
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+new file mode 100644
+index 0000000..e69de29
+
+zwrotka-3.txt log:
+
+commit 3bc90a6e557467888dc847050714368b42af4278
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:56:54 2020 +0200
+
+    Moving third verse from piosenka.txt to zwrotka-3.txt
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+index e69de29..11af8b0 100644
+--- a/zwrotka-3.txt
++++ b/zwrotka-3.txt
+@@ -0,0 +1,4 @@
++Gdzieś zniknął szalik, nic nie pamiętam
++Czy wielkanocne były już święta?
++By sobie poradzić z tym muszę znowu
++Napić się zanim wrócę do domu
+\ No newline at end of file
+
+commit ce3811fcb59fdfc47c63d98ea8b627a032331688
+Author: Lisukod <45397160+Lisukod@users.noreply.github.com>
+Date:   Wed Oct 14 19:28:58 2020 +0200
+
+    Uplod of new files for lyrics. Moving first line of lyrics from piosenka.txt to zwrotka-1.txt
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+new file mode 100644
+index 0000000..e69de29
+
+
+
