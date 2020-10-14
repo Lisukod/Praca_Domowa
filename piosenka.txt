@@ -3,10 +3,4 @@ refren-1.txt
 zwrotka-2.txt
 refren-2.txt
 zwrotka-3.txt
-
-
-
-
-
-Nie pytaj o nic, chcesz to wybaczaj
-Ciesz się kochanie, że w ogóle wracam x6
+refren-3.txt
